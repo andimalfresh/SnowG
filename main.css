@@ -1,34 +1,83 @@
-.slider .slides li{
-    opacity:1;
+@media only screen and (min-width: 1200px) {
+  .slider .slides li {
+    opacity: 1;
+  }
+  .card-content {
+    height: 200px;
+    line-height: 2;
+    font-weight: bold;
+  }
+
+  .page-footer {
+    background-color: darkgray;
+  }
+
+  .theOg {
+    font-size: 0.5em;
+  }
+
+  .box-div {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  .box-div img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .dropImg {
+    height: 350px;
+    width: 450px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background-color: black;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  background-color: black;
+}
+.blurbText {
+  color: orangered;
+}
+
+.box-div ul li {
+  padding: 10px;
+}
+
+a.link {
+  style: none;
 }
 .card-row {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 100px;
-    
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
 }
+
 .nav-wrapper {
-    background-color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
 }
+
 .brand-logo {
-    margin-left: 25px;
-}
-.card-content {
-    height: 200px;
-    line-height:2;
-    font-weight: bold;
-}
-.page-footer {
-    background-color: darkgray;
-}
-.theOg {
-    font-size: .5em;
-}
-.box-div {
-    margin:20px;
-    font-weight: bold;
+  margin-left: 25px;
 }
